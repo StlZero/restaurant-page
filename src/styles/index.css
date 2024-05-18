@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: bisque;
+    color: black;
+}
+
+.container {
+    margin: auto;
+    margin-top: 150px;
+    width: 75vw;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: burlywood;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+nav button {
+    font-size: 2rem;
+}
+
+/*  */
+
+
+p, li {
+    font-size: 1.25rem;
+}
+
+h1, h2, p, ul {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+/*  */
+
+.welcome, .schedule, .location {
+    margin: 50px;
+}
+
+.welcome p, .schedule ul, .schedule li, .location p {
+    margin-top: 10px;
+}
+
+/*  */
+
+.main-dishes, .appetizers, .beverages {
+    margin: 50px;
+}
+
+.main-dishes p, .appetizers p, .beverages p {
+    margin-top: 5px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+}
+
+hr {
+    border-color: black;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+/*  */
+
+.about-para {
+    width: 75vw;
+    margin: 50px auto 0 auto;
+}
